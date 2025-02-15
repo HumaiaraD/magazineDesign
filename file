@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazine pract</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow: none;
+        }
+        section {
+            width: 50%;
+            float: left;
+            margin: 40px;
+        }
+        span {
+            font-size: 2em;
+        }
+        #h3heading {
+            background-color: lightgray;
+            padding: 10px;
+        }
+        aside {
+            background-color: lightgrey;
+            overflow-x: auto;
+            margin: 20px;
+            padding-left: 20px;
+        }
+        #firstheading {
+            text-align: center;
+        }
+        footer {
+            height: 100px;
+            text-align: center;
+            place-content: center;
+            background-color: lightgray;
+            font-size: 0.75em;
+            width: 100vw;
+            overflow: hidden;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <Header>
+        <img src="europe-splendors-budapest-vienna-prague-mh.webp" alt="pic of europe" width="100%">
+    </Header>
+    <section>
+        <div id="firstheading">
+            <h2 style="font-size: 2em;font-family:'Times New Roman', Times, serif;">Splendors of Budapest,<br> Vienna & Prague</h2>
+            <p>10 days from $9,995 per person, double occupancy
+            <br>Limited to 18 guests</p>
+            <p><b>Warsaw & Krakow |</b> 6-day pre-Tour Extension from $4,995</p><br>
+            <p>Discover the three most radiant cities in Central Europe and experience the grand architectural, artistic and cultural heritage of the Old World, exploring Baroque-era treasures with the finest local experts.</p>
+        </div>
+        <hr>
+        <h3 id="h3heading"><span>& </span> A & K ADVANTAGES</h3>
+        <ul>
+            <li>Absorb the imperial grandeur of Budapest, a city that has survived the passing of empires and kept its romantic allure, where you savor an exclusive garden lunch at a private villa</li>
+            <li>Take in the dazzling beauty of Budapest illuminated at night, viewing impressive examples of architecture along the way, on a private evening cruise on the Danube</li>
+            <li>Attend an intimate concert at the Mozarthaus in Vienna, which was a mecca for great composers, including Mozart, Beethoven, Schubert and Strauss, for more than a century</li>
+            <li>Savor local wines on a visit to an award-winning winery in Moravia, set on vineyards dating back to the 13th century</li>
+            <li>Privately explore the library of the Strahov Monastery in Prague, gaining access to an area usually closed to the public, on a guided visit exclusively for A&K guests</li>
+        </ul>
+        <hr>
+        <h4>GUARANTEED DEPARTURE DATES</h4>
+        <p>2024
+            Sep 23 - Oct 02 <br>
+            Call for Availability<br>
+            Sep 30 - Oct 09 <br>
+            Waitlist - Call A&K<br>
+            Oct 07 - Oct 16 <br>
+            Waitlist - Call A&K<br>
+            Oct 14 - Oct 23 </p>
+        <hr>
+
+    </section>
+    <aside>
+        <h4>ITINERARY AT A GLANCE</h4>
+        <p>DAY 1:
+            Arrive Budapest, Hungary<br>
+            DAY 2:
+            Budapest | Matthias Church & Fisherman's Bastion<br>
+            DAY 3:
+            Budapest | Across the Bridge in Pest<br>
+            DAY 4:
+            Bratislava, Slovakia & Vienna, Austria | Chef's Table<br>
+            DAY 5:
+            Vienna | Austrian Treasures<br>
+            DAY 6:
+            Vienna | Visions of the Imperial City<br>
+            DAY 7:
+            Moravia, Czech Republic | Wines of a Rare Terroir<br>
+            DAY 8:
+            Prague | History Remembered<br>
+            DAY 9:
+            Prague | Design Your Day<br>
+        </p>
+    </aside>
+    <figure>
+        <img src="2021-Splendors-Budapest-Vienna-Prague-Map.jpg" alt="map" height="600px" width="500px">
+    </figure>
+    <footer>
+        <p>disclaimer: collected from abercrombiekent.com magazine for practice.
+            </p>
+        </footer>
+</body>
+</html>
